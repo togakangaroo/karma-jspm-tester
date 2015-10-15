@@ -1,0 +1,8 @@
+
+*.sublime-workspace
+_references.js
+*.swp
+*~
+node_modules/
+jspm_packages/
+npm-debug.log.*

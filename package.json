@@ -1,0 +1,36 @@
+{
+  "name": "karma-jspm-tester",
+  "version": "0.0.0",
+  "description": "karma jspm tester",
+  "scripts": {
+    "test": "karma start karma.conf.js --single-run",
+    "test:watch": "karma start karma.conf.js"
+  },
+  "keywords": [],
+  "jspm": {
+    "directories": {
+      "baseURL": "Scripts"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.1.13",
+      "babel-runtime": "npm:babel-runtime@^5.1.13",
+      "core-js": "npm:core-js@^0.9.4"
+    }
+  },
+  "dependencies": {
+    "jspm": "~0.15.7"
+  },
+  "devDependencies": {
+    "eslint": "^1.5.0",
+    "eslint-plugin-mocha": "^1.0.0",
+    "eslint-plugin-react": "^3.4.2",
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.12.36",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.1.12",
+    "karma-jspm": "^1.1.5",
+    "karma-mocha": "^0.1.10",
+    "karma-mocha-reporter": "^1.0.2",
+    "mocha": "^2.2.5"
+  }
+}
