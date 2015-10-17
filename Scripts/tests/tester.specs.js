@@ -1,7 +1,8 @@
-describe('test karma', () =>
-	it('should fail', () => 
-		throw Error("You should see this error if everything ran")
-	)
-)
+describe("test karma", () => {
+	it("should pass", () => {})
+	it("should fail", () => {
+		throw Error("An error")
+	})
+})
 
 export default null

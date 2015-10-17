@@ -5,4 +5,4 @@ _references.js
 *~
 node_modules/
 jspm_packages/
-npm-debug.log.*
+npm-debug.log*
