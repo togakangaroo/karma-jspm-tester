@@ -5,16 +5,17 @@ module.exports = function(config) {
     browsers: ['Chrome'],
     autoWatch: true,
     jspm: {
-      useBundles: true,
+      // useBundles: true,
       loadFiles: [
-        'tests/tester.specs.js'
+        'tests/*.specs.js'
       ],
       serveFiles: [
-        // '**/*.js'
+        //'**/*.js'
       ],
     },
     reporters: ['mocha'],
     proxies: {
+      // '/base/': '/scripts/'
     },
     mocha: {
       timeout: 10000,
